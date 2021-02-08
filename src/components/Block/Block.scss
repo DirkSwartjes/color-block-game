@@ -1,0 +1,9 @@
+.Block {
+    width: 5%;
+
+    &:after {
+        content: '';
+        display: block;
+        margin-top: 100%;
+    }
+}
